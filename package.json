@@ -34,6 +34,6 @@
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist -r https://github.com/bharath1m/4D-website.git"
   }
 }
